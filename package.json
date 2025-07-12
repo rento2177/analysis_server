@@ -1,0 +1,11 @@
+{
+  "name": "analysis_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rento2177/analyze_server",
+  "author": "Rento",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0"
+  }
+}
