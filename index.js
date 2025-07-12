@@ -1,5 +1,7 @@
 const http = require("http");
 const request = require("axios");
+const { createLocalStorage } = require("localstorage-ponyfill");
+const localStorage = createLocalStorage();
 let list = {};
 //001: GETリクエスト
 //002: Lua以外の場所からアクセス
