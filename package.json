@@ -6,6 +6,7 @@
   "author": "Rento",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.10.0"
+    "axios": "^1.10.0",
+    "localstorage-ponyfill": "^1.0.2"
   }
 }
