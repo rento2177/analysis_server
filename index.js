@@ -206,4 +206,4 @@ const server = http.createServer((req, res) => {
 
 //localStorage.clear();
 console.log("起動しました。 " + JSON.stringify(localStorage.getItem("Gokutsuchi0203")));
-server.listen(3000);
+server.listen(process.env.PORT || 3000);
